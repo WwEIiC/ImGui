@@ -2,7 +2,6 @@ project "ImGui"
 	kind "StaticLib"
 	language "C++"
 	cppdialect "C++20"
-    staticruntime "on"
 
 	targetdir ("bin/" .. outputDir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputDir .. "/%{prj.name}")
